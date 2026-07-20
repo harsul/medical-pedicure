@@ -20,61 +20,61 @@ import {
 const services = [
   {
     icon: Scissors,
-    title: "Medical Pedicure (Medi-Pedi)",
+    title: "Medicinska pedikiranja (Medi-Pedi)",
     description:
-      "A clinical-grade waterless pedicure performed with autoclave-sterilised instruments. Focused entirely on the health of your feet — treating and preventing conditions safely and hygienically.",
+      "Klinički razred pedikiranja bez vode izvedene sa instrumentima steriliziranim u autoklavnom procesu. Fokusirano isključivo na zdravlje vaših stopala — tretiranje i sprečavanje stanja bezbedno i higijjenski.",
   },
   {
     icon: Stethoscope,
-    title: "Diabetic Foot Care & Assessment",
+    title: "Dijabetesna Njega Stopala & Procjena",
     description:
-      "Specialist care tailored to the heightened sensitivity and circulatory risks associated with diabetes. Includes vascular and neurological screening, skin integrity checks, and safe nail care.",
+      "Specijalistička njega prilagođena povećanoj osjetljivosti i cirkulatornim rizicima povezanim sa dijabetesom. Uključuje vaskularne i neurološke preglede, provjere integriteta kože i sigurnu negu noktiju.",
   },
   {
     icon: CheckCircle,
-    title: "Ingrown Toenail Treatment",
+    title: "Tretman Zarubljenih Nokta",
     description:
-      "Precise, pain-minimising treatment for ingrowing toenails using sterile specialist tools. Conservative management provided, with surgical referral guidance where appropriate.",
+      "Precizan tretman koji minimizira bol za zarubljene nokte koristeći sterilizirane specijalizirane alate. Pruža se konzervativna njega sa uputama za hirurške intervencije gdje je potrebno.",
   },
   {
     icon: Award,
-    title: "Callus, Corn & Hard Skin Removal",
+    title: "Uklanjanje Mozolj, Kukuruza i Zadebljane Kože",
     description:
-      "Safe and controlled removal of problematic hard skin, corns, and calluses — relieving pain and pressure without aggressive or tissue-damaging techniques.",
+      "Sigurno i kontrolisano uklanjanje problematične zadebljane kože, kukuruza i mozolj — ublažavanje bola i pritiska bez agresivnih ili štetnih teknika.",
   },
   {
     icon: Microscope,
-    title: "Fungal Nail Treatment",
+    title: "Tretman Gljivičnih Infekcija Noktiju",
     description:
-      "Clinical assessment and treatment of fungal nail infections (onychomycosis), with evidence-based advice on hygiene, footwear, and appropriate topical or oral treatment pathways.",
+      "Klinička procjena i tretman gljivičnih infekcija noktiju (onihomikoza) sa dokazanim savjetima o higijeni, obuči i odgovarajućim topikalnim ili oralnim tretmanima.",
   },
   {
     icon: HeartHandshake,
-    title: "Foot Health Advising & Preventative Care",
+    title: "Savjetovanje za Zdravlje Stopala & Preventivna Njega",
     description:
-      "Personalised guidance on footwear selection, orthotic insoles, self-care routines, and preventative strategies to maintain long-term foot health and mobility.",
+      "Personalizovani savjet o izboru obuće, ortopedskim uloškama, rutinama samo-njege i preventivnim strategijama za održavanje dugoročnog zdravlja i pokretljivosti stopala.",
   },
 ];
 
 const faqs = [
   {
     question:
-      "What is the difference between a medical pedicure and a standard salon pedicure?",
-    answer: `A medical pedicure — often called a Medi-Pedi — is performed by a trained foot health specialist in a clinical setting, using instruments that are autoclave-sterilised between every patient. Unlike a standard salon pedicure, our treatment is waterless: soaking feet in shared water is avoided entirely, eliminating the risk of cross-contamination and fungal transmission.
+      "Koja je razlika između medicinske pedikiranja i standardne salon pedikiranja?",
+    answer: `Medicinska pedikiranja — često nazvana Medi-Pedi — izvedena je od strane obučenog specijalista za zdravlje stopala u klinički okruženju, koristeći instrumente koji su sterilizovani u autoklavnom procesu između svakog pacijenta. Za razliku od standardne salon pedikiranja, naš tretman je bez vode: potapanje stopala u deljenu vodu se u potpunosti izbjegava, čime se eliminiše rizik od unakrsne kontaminacije i prenosivanja gljivica.
 
-We do not use aggressive filing, harsh abrasive scrubs, or excessive cutting that can damage delicate skin and create entry points for infection. Instead, we use precision surgical instruments to treat the nail plate, surrounding tissue, and skin in a controlled, evidence-based way — with a focus entirely on health outcomes, not cosmetic appearance.`,
+Ne koristimo agresivno pilanje, oštre abrazivne peelingove ili prekomerno rezanje koje može oštetiti osjetljivu kožu i stvoriti prolazne točke za infekciju. Umjesto toga, koristimo precizne kirurške instrumente za tretiranje nokta, okružujućeg tkiva i kože na kontrolisani, dokazima potkrepljen način — sa fokusom isključivo na zdravstvene rezultate, a ne na estetski izgled.`,
   },
   {
-    question: "Is this treatment safe if I am diabetic?",
-    answer: `Not only is it safe — it is strongly recommended. People living with diabetes are at significantly higher risk of foot complications due to peripheral neuropathy (reduced sensation) and impaired circulation. This means minor skin breaks, nail problems, or pressure sores that might go unnoticed can rapidly escalate into serious infections.
+    question: "Da li je ovaj tretman bezbedan ako sam dijabetičar?",
+    answer: `Nije samo sigurno — snažno se preporučuje. Ljudi sa dijabetesom su bitno ugroženiji od komplikacija stopala zbog periferne neuropatije (smanjene osjetljivosti) i oštećene cirkulacije. To znači da male pucnjeve kože, probleme sa noktima ili pritisne rane koje mogu proći nezapažene mogu brzo prerasti u ozbiljne infekcije.
 
-Our diabetic foot care appointments use exclusively sterile, single-use or autoclave-sterilised instruments to prevent any risk of introducing infection. We take meticulous care to avoid micro-trauma to the skin. Each appointment also includes a brief vascular and neurological assessment so that any changes in circulation or sensation are identified early and — where necessary — referred onward to the appropriate clinician.`,
+Naši pregledi njege stopala za dijabetičare koriste isključivo sterilizirane instrumente za jednokratnu upotrebu ili autoklava za sprečavanje bilo kakvog rizika od uvodjenja infekcije. Pažljivo vodimo računa da izbjegnemo mikro-traume na koži. Svaki pregled također uključuje kratku vaskularnu i neurološku procjenu kako bi se bilo kakve promjene u cirkulaciji ili osjetljivosti prepoznale rano i — gdje je potrebno — proslijeđene odgovarajućem liječniku.`,
   },
   {
-    question: "Does the treatment hurt?",
-    answer: `Medical pedicure treatments are non-invasive and designed to be comfortable and pain-free. We work methodically and gently, and our clinical approach means we never rush or apply unnecessary force. Most clients find the experience deeply relaxing.
+    question: "Da li tretman boli?",
+    answer: `Medicinski tretmani pedikiranja su neinvazivni i dizajnirani da budu udobni i bez bola. Radimo metodično i nježno, a naš klinički pristup znači da nikada ne žurimo niti primjenjujemo nepotrebnu silu. Većina klijenata nalazi iskustvo duboko opuštajućim.
 
-If you are attending for ingrown toenail treatment or have a particularly sensitive condition, we will always discuss what to expect beforehand and work at a pace that keeps you comfortable throughout.`,
+Ako dolazite na tretman zarubljenih nokta ili imate posebno osjetljivo stanje, uvijek ćemo prvo razgovarati o tome šta možete očekivati i raditi tempom koji vas čini ugodnim tijekom cijelog tretmana.`,
   },
 ];
 
@@ -97,7 +97,7 @@ export default function Home() {
                 href="#services"
                 className="hover:text-teal-600 transition-colors"
               >
-                Services
+                Usluge
               </a>
               <a href="#faq" className="hover:text-teal-600 transition-colors">
                 FAQ
@@ -106,7 +106,7 @@ export default function Home() {
                 href="#about"
                 className="hover:text-teal-600 transition-colors"
               >
-                About
+                O Nama
               </a>
             </nav>
             <a
@@ -114,8 +114,8 @@ export default function Home() {
               className="inline-flex items-center gap-2 bg-teal-600 text-white text-sm font-medium px-4 py-2 rounded-full hover:bg-teal-700 transition-colors"
             >
               <CalendarCheck className="w-4 h-4" />
-              <span className="hidden sm:inline">Book Appointment</span>
-              <span className="sm:hidden">Book</span>
+              <span className="hidden sm:inline">Zakažite Pregled</span>
+              <span className="sm:hidden">Zakažite</span>
             </a>
           </div>
         </div>
@@ -136,19 +136,19 @@ export default function Home() {
             <div>
               <div className="inline-flex items-center gap-2 text-teal-700 text-sm font-medium bg-teal-50 border border-teal-200 px-3 py-1 rounded-full mb-6">
                 <ShieldCheck className="w-4 h-4" />
-                Clinical-Grade Foot Health Care
+                Njega Stopala na Kliničkom Nivou
               </div>
               <h1 className="text-4xl sm:text-5xl lg:text-5xl font-bold text-slate-900 leading-tight tracking-tight mb-6">
-                Professional Medical{" "}
+                Stručna Medicinska{" "}
                 <span className="text-teal-600">
-                  Pedicure & Foot Advising
+                  Pedikiranja & Savjetovanje
                 </span>
               </h1>
               <p className="text-lg sm:text-xl text-slate-600 leading-relaxed mb-8">
-                Expert foot health care delivered with clinical precision.
-                Autoclave-sterilised instruments, a waterless protocol, and
-                personalised treatment — because your feet deserve more than a
-                salon appointment.
+                Stručna njega stopala dostavljana sa klinačkom preciznošću.
+                Instrumenti sterilizovani u autoklavnom procesu, protokol bez vode i
+                personalizovani tretman — jer vaša stopala zaslužuju više od
+                salon posete.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <a
@@ -156,28 +156,28 @@ export default function Home() {
                   className="inline-flex items-center justify-center gap-2 bg-teal-600 text-white font-semibold px-6 py-3.5 rounded-full hover:bg-teal-700 transition-colors shadow-md hover:shadow-lg"
                 >
                   <MessageCircle className="w-5 h-5" />
-                  Book via WhatsApp
+                  Zakažite Putem WhatsApp
                 </a>
                 <a
                   href="#services"
                   className="inline-flex items-center justify-center gap-2 border border-slate-300 text-slate-700 font-semibold px-6 py-3.5 rounded-full hover:border-teal-500 hover:text-teal-600 transition-colors"
                 >
-                  View Services
+                  Pogledajte Usluge
                   <ArrowRight className="w-4 h-4" />
                 </a>
               </div>
               <div className="flex flex-wrap gap-6 text-sm text-slate-500">
                 <div className="flex items-center gap-2">
                   <CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0" />
-                  Autoclave-sterilised instruments
+                  Instrumenti sterilizovani u autoklavnom procesu
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0" />
-                  Waterless protocol
+                  Protokol bez vode
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0" />
-                  Diabetic-safe treatment
+                  Tretman Bezbjedan za Dijabetičare
                 </div>
               </div>
             </div>
@@ -205,10 +205,10 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-              Clinical Expertise & Standards
+              Stručnjačka Znanja i Standardi
             </h2>
             <p className="text-slate-500 max-w-xl mx-auto">
-              Professional qualifications and state-of-the-art sterilisation protocols ensure your safety and care.
+              Profesionalne kvalifikacije i napredni protokoli sterilizacije obezbeđuju vašu sigurnost i negu.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
@@ -219,16 +219,16 @@ export default function Home() {
                 <div className="relative bg-white p-4 rounded-xl shadow-lg overflow-hidden">
                   <img
                     src="/ordination.png"
-                    alt="Professional qualifications and certifications"
+                    alt="Profesionalne kvalifikacije i sertifikati"
                     className="w-full h-auto rounded-lg object-cover"
                   />
                 </div>
               </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-2">
-                Professional Qualifications
+                Profesionalne Kvalifikacije
               </h3>
               <p className="text-slate-600 text-center">
-                Advanced training and credentials in podiatric care and foot health management, ensuring evidence-based clinical practice.
+                Napredne obuke i kvalifikacije u njezi stopala i upravljanju zdravljem stopala, osiguravajući praksu zasnovanu na dokazima.
               </p>
             </div>
 
@@ -239,16 +239,16 @@ export default function Home() {
                 <div className="relative bg-white p-4 rounded-xl shadow-lg overflow-hidden">
                   <img
                     src="/steril-env.png"
-                    alt="State-of-the-art sterilisation environment"
+                    alt="Napredna sterilna klinička sredina"
                     className="w-full h-auto rounded-lg object-cover"
                   />
                 </div>
               </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-2">
-                Sterile Clinical Environment
+                Sterilna Klinička Sredina
               </h3>
               <p className="text-slate-600 text-center">
-                Autoclave-sterilised instruments, single-use supplies, and meticulous hygiene protocols — medical-grade sterilisation every time.
+                Instrumenti sterilizovani u autoklavnom procesu, oprema za jednokratnu upotrebu i pažljivi protokoli higijene — sterilizacija na medicinskom nivou svaki put.
               </p>
             </div>
           </div>
@@ -260,11 +260,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-              Our Services
+              Naše Usluge
             </h2>
             <p className="text-slate-500 max-w-xl mx-auto">
-              Every treatment is tailored to your individual foot health needs,
-              carried out with clinical precision and genuine care.
+              Svaki tretman je prilagođen vašim individualnim potrebama za zdravlje stopala,
+              proveden sa klinačkom preciznošću i pažljom brigom.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -296,11 +296,11 @@ export default function Home() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-              Common Questions
+              Česta Pitanja
             </h2>
             <p className="text-slate-500">
-              Honest, evidence-based answers to help you understand your
-              treatment.
+              Iskreni, dokazima potkrepljeni odgovori koji će vam pomoći da razumete
+              vaš tretman.
             </p>
           </div>
           <div className="space-y-4">
@@ -330,42 +330,42 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
             <div>
               <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">
-                About Us
+                O Nama
               </h2>
               <p className="text-slate-600 leading-relaxed mb-4">
-                We are a specialist foot health practice dedicated to delivering
-                clinical excellence in every appointment. Our practitioner holds
-                advanced qualifications in podiatric care and brings a genuine
-                commitment to evidence-based, patient-centred treatment.
+                Smo specijalizirana praksa za zdravlje stopala posvećena pružanju
+                klinačke izvrsnosti na svakom pregledu. Naš praktičar ima
+                napredne kvalifikacije u njezi stopala i donosi iskrenu
+                posvećenost tretmanu zasnovanom na dokazima i usmerenom na pacijenta.
               </p>
               <p className="text-slate-600 leading-relaxed mb-4">
-                We believe that healthy feet are fundamental to quality of life
-                — and that everyone deserves access to the same standard of
-                care, whether managing a complex condition like diabetes or
-                simply maintaining day-to-day foot health.
+                Verujemo da su zdrava stopala fundamentalna za kvalitet života
+                — i da svako zaslužuje pristup istom standardu
+                njege, bilo da upravlja složenim stanjem poput dijabetesa ili
+                jednostavno održavajući zdravlje stopala iz dana u dan.
               </p>
               <p className="text-slate-600 leading-relaxed">
-                Every detail — from the sterility of our instruments to the
-                pace of your appointment — is designed with your comfort,
-                safety, and long-term wellbeing in mind.
+                Svaki detalj — od sterilnosti naših instrumenata do
+                tempa vašeg pregleda — je osmišljen sa vašom udobnošću,
+                sigurnošću i dugoročnim blagostanjem u vidu.
               </p>
               <div className="mt-8 space-y-3">
                 <div className="flex items-center gap-3">
                   <BadgeCheck className="w-5 h-5 text-teal-600 flex-shrink-0" />
                   <span className="text-sm text-slate-600">
-                    Fully insured &amp; trained to clinical standards
+                    Potpuno osiguran &amp; obučen na klinačkim standardima
                   </span>
                 </div>
                 <div className="flex items-center gap-3">
                   <ShieldCheck className="w-5 h-5 text-teal-600 flex-shrink-0" />
                   <span className="text-sm text-slate-600">
-                    Autoclave-sterilised instruments — every time
+                    Instrumenti sterilizovani u autoklavnom procesu — svaki put
                   </span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Footprints className="w-5 h-5 text-teal-600 flex-shrink-0" />
                   <span className="text-sm text-slate-600">
-                    Specialist care for all foot health conditions
+                    Specijalizirana njega za sve zdravstvene probleme stopala
                   </span>
                 </div>
               </div>
@@ -373,7 +373,7 @@ export default function Home() {
 
             <div id="contact">
               <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">
-                Find Us
+                Pronađite Nas
               </h2>
               <div className="bg-slate-50 rounded-2xl border border-slate-200 p-6 space-y-5 mb-6">
                 <div className="flex items-start gap-4">
@@ -381,11 +381,11 @@ export default function Home() {
                     <MapPin className="w-5 h-5 text-teal-700" />
                   </div>
                   <div>
-                    <p className="font-medium text-slate-800 mb-1">Location</p>
+                    <p className="font-medium text-slate-800 mb-1">Lokacija</p>
                     <p className="text-slate-600 text-sm">
-                      [Insert Street Address]
+                      [Unesite Ulici Adresi]
                       <br />
-                      [Insert City &amp; Postcode]
+                      [Unesite Grad &amp; Poštanski Broj]
                     </p>
                   </div>
                 </div>
@@ -395,10 +395,10 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="font-medium text-slate-800 mb-1">
-                      Opening Hours
+                      Radno Vrijeme
                     </p>
                     <p className="text-slate-600 text-sm">
-                      [Insert Opening Hours]
+                      [Unesite Radno Vrijeme]
                     </p>
                   </div>
                 </div>
@@ -407,9 +407,9 @@ export default function Home() {
                     <Phone className="w-5 h-5 text-teal-700" />
                   </div>
                   <div>
-                    <p className="font-medium text-slate-800 mb-1">Contact</p>
+                    <p className="font-medium text-slate-800 mb-1">Kontakt</p>
                     <p className="text-slate-600 text-sm">
-                      Prefer WhatsApp? Tap below to message us directly.
+                      Prenosite WhatsApp? Kliknite ispod da nam direktno napišete.
                     </p>
                   </div>
                 </div>
@@ -419,7 +419,7 @@ export default function Home() {
                 className="flex items-center justify-center gap-3 w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-4 rounded-2xl transition-colors shadow-md hover:shadow-lg"
               >
                 <MessageCircle className="w-5 h-5" />
-                Message Us on WhatsApp
+                Pošalji nam Poruku na WhatsApp
               </a>
             </div>
           </div>
@@ -434,11 +434,11 @@ export default function Home() {
               <Footprints className="w-5 h-5 text-teal-400" />
               <span className="text-white font-semibold tracking-tight">
                 MediPed{" "}
-                <span className="text-teal-400">Foot Care</span>
+                <span className="text-teal-400">Njega Stopala</span>
               </span>
             </div>
             <p className="text-sm text-slate-500 text-center order-last sm:order-none">
-              &copy; 2025 MediPed Foot Care. All rights reserved.
+              &copy; 2025 MediPed Njega Stopala. Sva Prava Zadržana.
             </p>
             <div className="flex items-center gap-4">
               <a
@@ -447,7 +447,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="text-sm text-slate-400 hover:text-white transition-colors"
               >
-                @YourInstagram
+                @VašInstagram
               </a>
               <a
                 href="https://wa.me/[INSERT_WHATSAPP_NUMBER]"
