@@ -1,3 +1,4 @@
+import Image from "next/image";
 import {
   Stethoscope,
   MapPin,
@@ -189,9 +190,11 @@ export default function Home() {
                 {/* Frame effect */}
                 <div className="absolute -inset-4 bg-gradient-to-br from-teal-100 to-slate-100 rounded-3xl"></div>
                 <div className="relative bg-white p-4 rounded-2xl shadow-xl overflow-hidden">
-                  <img
+                  <Image
                     src="/hero-image.png"
                     alt="Medical pedicure professional examination"
+                    width={500}
+                    height={400}
                     className="w-full h-auto rounded-xl object-cover"
                   />
                 </div>
@@ -218,9 +221,11 @@ export default function Home() {
               <div className="relative w-full mb-6">
                 <div className="absolute -inset-3 bg-gradient-to-br from-teal-100 to-slate-100 rounded-2xl"></div>
                 <div className="relative bg-white p-4 rounded-xl shadow-lg overflow-hidden">
-                  <img
+                  <Image
                     src="/ordination.png"
                     alt="Profesionalne kvalifikacije i sertifikati"
+                    width={400}
+                    height={300}
                     className="w-full h-auto rounded-lg object-cover"
                   />
                 </div>
@@ -238,9 +243,11 @@ export default function Home() {
               <div className="relative w-full mb-6">
                 <div className="absolute -inset-3 bg-gradient-to-br from-teal-100 to-slate-100 rounded-2xl"></div>
                 <div className="relative bg-white p-4 rounded-xl shadow-lg overflow-hidden">
-                  <img
+                  <Image
                     src="/steril-env.png"
                     alt="Napredna sterilna klinička sredina"
+                    width={400}
+                    height={300}
                     className="w-full h-auto rounded-lg object-cover"
                   />
                 </div>
