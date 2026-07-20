@@ -16,41 +16,42 @@ import {
   Microscope,
   Phone,
 } from "lucide-react";
+import { FaFacebookF, FaInstagram, FaViber, FaWhatsapp } from "react-icons/fa";
 
 const services = [
   {
     icon: Scissors,
     title: "Medicinska pedikiranja (Medi-Pedi)",
     description:
-      "Klinički razred pedikiranja bez vode izvedene sa instrumentima steriliziranim u autoklavnom procesu. Fokusirano isključivo na zdravlje vaših stopala — tretiranje i sprečavanje stanja bezbedno i higijjenski.",
+      "Klinički razred pedikiranja bez vode izvedene sa instrumentima steriliziranim u autoklavnom procesu. Fokusirano isključivo na zdravlje vaših stopala - tretiranje i sprečavanje stanja bezbedno i higijjenski.",
   },
   {
     icon: Stethoscope,
-    title: "Dijabetesna Njega Stopala & Procjena",
+    title: "Procjena stanja stopala za dijabetičare",
     description:
       "Specijalistička njega prilagođena povećanoj osjetljivosti i cirkulatornim rizicima povezanim sa dijabetesom. Uključuje vaskularne i neurološke preglede, provjere integriteta kože i sigurnu negu noktiju.",
   },
   {
     icon: CheckCircle,
-    title: "Tretman Zarubljenih Nokta",
+    title: "Tretman uraslog nokta",
     description:
-      "Precizan tretman koji minimizira bol za zarubljene nokte koristeći sterilizirane specijalizirane alate. Pruža se konzervativna njega sa uputama za hirurške intervencije gdje je potrebno.",
+      "Precizan tretman koji minimizira bol za urasle nokte koristeći sterilizirane specijalizirane alate. Pruža se konzervativna njega sa uputama za hirurške intervencije gdje je potrebno.",
   },
   {
     icon: Award,
-    title: "Uklanjanje Mozolj, Kukuruza i Zadebljane Kože",
+    title: "Uklanjanje kurjeg oka i zadebljanja kože",
     description:
-      "Sigurno i kontrolisano uklanjanje problematične zadebljane kože, kukuruza i mozolj — ublažavanje bola i pritiska bez agresivnih ili štetnih teknika.",
+      "Sigurno i kontrolisano uklanjanje problematične zadebljane kože, kurjeg oka - ublažavanje bola i pritiska bez agresivnih ili štetnih teknika.",
   },
   {
     icon: Microscope,
-    title: "Tretman Gljivičnih Infekcija Noktiju",
+    title: "Tretman gljivičnih i bakterijskih infekcija noktiju",
     description:
       "Klinička procjena i tretman gljivičnih infekcija noktiju (onihomikoza) sa dokazanim savjetima o higijeni, obuči i odgovarajućim topikalnim ili oralnim tretmanima.",
   },
   {
     icon: HeartHandshake,
-    title: "Savjetovanje za Zdravlje Stopala & Preventivna Njega",
+    title: "Savjetovanje za zdravlje stopala i preventivna njega",
     description:
       "Personalizovani savjet o izboru obuće, ortopedskim uloškama, rutinama samo-njege i preventivnim strategijama za održavanje dugoročnog zdravlja i pokretljivosti stopala.",
   },
@@ -59,14 +60,14 @@ const services = [
 const faqs = [
   {
     question:
-      "Koja je razlika između medicinske pedikiranja i standardne salon pedikiranja?",
-    answer: `Medicinska pedikiranja — često nazvana Medi-Pedi — izvedena je od strane obučenog specijalista za zdravlje stopala u klinički okruženju, koristeći instrumente koji su sterilizovani u autoklavnom procesu između svakog pacijenta. Za razliku od standardne salon pedikiranja, naš tretman je bez vode: potapanje stopala u deljenu vodu se u potpunosti izbjegava, čime se eliminiše rizik od unakrsne kontaminacije i prenosivanja gljivica.
+      "Koja je razlika između medicinskog pedikiranja i standardne salon pedikiranja?",
+    answer: `Medicinska pedikiranja - često nazvana Medi-Pedi, izvedena je od strane obučenog specijalista za zdravlje stopala u klinički okruženju, koristeći instrumente koji su sterilizovani u autoklavnom procesu između svakog pacijenta. Za razliku od standardne salon pedikiranja, naš tretman je bez vode: potapanje stopala u deljenu vodu se u potpunosti izbjegava, čime se eliminiše rizik od unakrsne kontaminacije i prenosivanja gljivica.
 
 Ne koristimo agresivno pilanje, oštre abrazivne peelingove ili prekomerno rezanje koje može oštetiti osjetljivu kožu i stvoriti prolazne točke za infekciju. Umjesto toga, koristimo precizne kirurške instrumente za tretiranje nokta, okružujućeg tkiva i kože na kontrolisani, dokazima potkrepljen način — sa fokusom isključivo na zdravstvene rezultate, a ne na estetski izgled.`,
   },
   {
     question: "Da li je ovaj tretman bezbedan ako sam dijabetičar?",
-    answer: `Nije samo sigurno — snažno se preporučuje. Ljudi sa dijabetesom su bitno ugroženiji od komplikacija stopala zbog periferne neuropatije (smanjene osjetljivosti) i oštećene cirkulacije. To znači da male pucnjeve kože, probleme sa noktima ili pritisne rane koje mogu proći nezapažene mogu brzo prerasti u ozbiljne infekcije.
+    answer: `Nije samo sigurno —- snažno se preporučuje. Ljudi sa dijabetesom su bitno ugroženiji od komplikacija stopala zbog periferne neuropatije (smanjene osjetljivosti) i oštećene cirkulacije. To znači da male pucnjeve kože, probleme sa noktima ili pritisne rane koje mogu proći nezapažene mogu brzo prerasti u ozbiljne infekcije.
 
 Naši pregledi njege stopala za dijabetičare koriste isključivo sterilizirane instrumente za jednokratnu upotrebu ili autoklava za sprečavanje bilo kakvog rizika od uvodjenja infekcije. Pažljivo vodimo računa da izbjegnemo mikro-traume na koži. Svaki pregled također uključuje kratku vaskularnu i neurološku procjenu kako bi se bilo kakve promjene u cirkulaciji ili osjetljivosti prepoznale rano i — gdje je potrebno — proslijeđene odgovarajućem liječniku.`,
   },
@@ -74,7 +75,7 @@ Naši pregledi njege stopala za dijabetičare koriste isključivo sterilizirane 
     question: "Da li tretman boli?",
     answer: `Medicinski tretmani pedikiranja su neinvazivni i dizajnirani da budu udobni i bez bola. Radimo metodično i nježno, a naš klinički pristup znači da nikada ne žurimo niti primjenjujemo nepotrebnu silu. Većina klijenata nalazi iskustvo duboko opuštajućim.
 
-Ako dolazite na tretman zarubljenih nokta ili imate posebno osjetljivo stanje, uvijek ćemo prvo razgovarati o tome šta možete očekivati i raditi tempom koji vas čini ugodnim tijekom cijelog tretmana.`,
+Ako dolazite na tretman uraslih nokta ili imate posebno osjetljivo stanje, uvijek ćemo prvo razgovarati o tome šta možete očekivati i raditi tempom koji vas čini ugodnim tijekom cijelog tretmana.`,
   },
 ];
 
@@ -89,7 +90,7 @@ export default function Home() {
               <Footprints className="w-6 h-6 text-teal-600" />
               <span className="text-lg font-semibold text-slate-900 tracking-tight">
                 MediPed{" "}
-                <span className="text-teal-600">Foot Care</span>
+                <span className="text-teal-600">njega stopala</span>
               </span>
             </div>
             <nav className="hidden md:flex items-center gap-6 text-sm text-slate-600">
@@ -136,12 +137,12 @@ export default function Home() {
             <div>
               <div className="inline-flex items-center gap-2 text-teal-700 text-sm font-medium bg-teal-50 border border-teal-200 px-3 py-1 rounded-full mb-6">
                 <ShieldCheck className="w-4 h-4" />
-                Njega Stopala na Kliničkom Nivou
+                Njega stopala na kliničkom nivou
               </div>
               <h1 className="text-4xl sm:text-5xl lg:text-5xl font-bold text-slate-900 leading-tight tracking-tight mb-6">
-                Stručna Medicinska{" "}
+                Stručna medicinska{" "}
                 <span className="text-teal-600">
-                  Pedikiranja & Savjetovanje
+                  pedikiranja i savjetovanje
                 </span>
               </h1>
               <p className="text-lg sm:text-xl text-slate-600 leading-relaxed mb-8">
@@ -156,13 +157,13 @@ export default function Home() {
                   className="inline-flex items-center justify-center gap-2 bg-teal-600 text-white font-semibold px-6 py-3.5 rounded-full hover:bg-teal-700 transition-colors shadow-md hover:shadow-lg"
                 >
                   <MessageCircle className="w-5 h-5" />
-                  Zakažite Putem WhatsApp
+                  Zakažite putem WhatsApp
                 </a>
                 <a
                   href="#services"
                   className="inline-flex items-center justify-center gap-2 border border-slate-300 text-slate-700 font-semibold px-6 py-3.5 rounded-full hover:border-teal-500 hover:text-teal-600 transition-colors"
                 >
-                  Pogledajte Usluge
+                  Pogledajte usluge
                   <ArrowRight className="w-4 h-4" />
                 </a>
               </div>
@@ -177,7 +178,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0" />
-                  Tretman Bezbjedan za Dijabetičare
+                  Tretman bezbjedan za dijabetičare
                 </div>
               </div>
             </div>
@@ -205,7 +206,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-              Stručnjačka Znanja i Standardi
+              Stručno znanje i standardi higijene
             </h2>
             <p className="text-slate-500 max-w-xl mx-auto">
               Profesionalne kvalifikacije i napredni protokoli sterilizacije obezbeđuju vašu sigurnost i negu.
@@ -225,7 +226,7 @@ export default function Home() {
                 </div>
               </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-2">
-                Profesionalne Kvalifikacije
+                Profesionalne kvalifikacije
               </h3>
               <p className="text-slate-600 text-center">
                 Napredne obuke i kvalifikacije u njezi stopala i upravljanju zdravljem stopala, osiguravajući praksu zasnovanu na dokazima.
@@ -245,7 +246,7 @@ export default function Home() {
                 </div>
               </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-2">
-                Sterilna Klinička Sredina
+                Sterilna klinička sredina
               </h3>
               <p className="text-slate-600 text-center">
                 Instrumenti sterilizovani u autoklavnom procesu, oprema za jednokratnu upotrebu i pažljivi protokoli higijene — sterilizacija na medicinskom nivou svaki put.
@@ -260,7 +261,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-              Naše Usluge
+              Naše usluge
             </h2>
             <p className="text-slate-500 max-w-xl mx-auto">
               Svaki tretman je prilagođen vašim individualnim potrebama za zdravlje stopala,
@@ -296,7 +297,7 @@ export default function Home() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-              Česta Pitanja
+              Česta pitanja
             </h2>
             <p className="text-slate-500">
               Iskreni, dokazima potkrepljeni odgovori koji će vam pomoći da razumete
@@ -333,33 +334,35 @@ export default function Home() {
                 O Nama
               </h2>
               <p className="text-slate-600 leading-relaxed mb-4">
-                Smo specijalizirana praksa za zdravlje stopala posvećena pružanju
+                Specijalizirana praksa za zdravlje stopala posvećena pružanju
                 klinačke izvrsnosti na svakom pregledu. Naš praktičar ima
                 napredne kvalifikacije u njezi stopala i donosi iskrenu
                 posvećenost tretmanu zasnovanom na dokazima i usmerenom na pacijenta.
               </p>
               <p className="text-slate-600 leading-relaxed mb-4">
                 Verujemo da su zdrava stopala fundamentalna za kvalitet života
-                — i da svako zaslužuje pristup istom standardu
+                - i da svako zaslužuje pristup istom standardu
                 njege, bilo da upravlja složenim stanjem poput dijabetesa ili
                 jednostavno održavajući zdravlje stopala iz dana u dan.
               </p>
               <p className="text-slate-600 leading-relaxed">
-                Svaki detalj — od sterilnosti naših instrumenata do
-                tempa vašeg pregleda — je osmišljen sa vašom udobnošću,
-                sigurnošću i dugoročnim blagostanjem u vidu.
+                Svaki detalj - od sterilnosti naših instrumenata do
+                tempa vašeg pregleda - je osmišljen sa vašom udobnošću,
+                sigurnošću i dugoročnim zdravljem stopala na umu. Naša misija je da
+                redefinišemo šta znači brinuti o stopalima, pružajući iskustvo koje je
+                jednako stručno koliko i brižno.
               </p>
               <div className="mt-8 space-y-3">
                 <div className="flex items-center gap-3">
                   <BadgeCheck className="w-5 h-5 text-teal-600 flex-shrink-0" />
                   <span className="text-sm text-slate-600">
-                    Potpuno osiguran &amp; obučen na klinačkim standardima
+                    Potpuno osiguran i opremljen na klinačkim standardima
                   </span>
                 </div>
                 <div className="flex items-center gap-3">
                   <ShieldCheck className="w-5 h-5 text-teal-600 flex-shrink-0" />
                   <span className="text-sm text-slate-600">
-                    Instrumenti sterilizovani u autoklavnom procesu — svaki put
+                    Instrumenti sterilizovani u autoklavnom procesu - svaki put
                   </span>
                 </div>
                 <div className="flex items-center gap-3">
@@ -382,11 +385,16 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="font-medium text-slate-800 mb-1">Lokacija</p>
-                    <p className="text-slate-600 text-sm">
-                      [Unesite Ulici Adresi]
+                    <a
+                      href="https://www.google.com/maps/search/Srdjana+Aleksica+14+Otoka+Sarajevo+Bosna+i+Hercegovina"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-slate-600 text-sm hover:text-teal-600 transition-colors"
+                    >
+                      Srdjana Aleksica 14, Otoka
                       <br />
-                      [Unesite Grad &amp; Poštanski Broj]
-                    </p>
+                      Sarajevo, Bosna i Hercegovina
+                    </a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -398,7 +406,11 @@ export default function Home() {
                       Radno Vrijeme
                     </p>
                     <p className="text-slate-600 text-sm">
-                      [Unesite Radno Vrijeme]
+                      Pon-Pet: 18:00 - 21:00
+                      <br />
+                      Sub: 09:00 - 12:00
+                      <br />
+                      Ned: Zatvoreno
                     </p>
                   </div>
                 </div>
@@ -409,18 +421,11 @@ export default function Home() {
                   <div>
                     <p className="font-medium text-slate-800 mb-1">Kontakt</p>
                     <p className="text-slate-600 text-sm">
-                      Prenosite WhatsApp? Kliknite ispod da nam direktno napišete.
+                      +387 61 566 787
                     </p>
                   </div>
                 </div>
               </div>
-              <a
-                href="https://wa.me/[INSERT_WHATSAPP_NUMBER]"
-                className="flex items-center justify-center gap-3 w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-4 rounded-2xl transition-colors shadow-md hover:shadow-lg"
-              >
-                <MessageCircle className="w-5 h-5" />
-                Pošalji nam Poruku na WhatsApp
-              </a>
             </div>
           </div>
         </div>
@@ -434,27 +439,46 @@ export default function Home() {
               <Footprints className="w-5 h-5 text-teal-400" />
               <span className="text-white font-semibold tracking-tight">
                 MediPed{" "}
-                <span className="text-teal-400">Njega Stopala</span>
+                <span className="text-teal-400">njega <samp></samp>topala</span>
               </span>
             </div>
             <p className="text-sm text-slate-500 text-center order-last sm:order-none">
-              &copy; 2025 MediPed Njega Stopala. Sva Prava Zadržana.
+              &copy; 2026 Sva prava zadržana.
             </p>
             <div className="flex items-center gap-4">
+              <a
+                href="https://facebook.com/[INSERT_FACEBOOK_PAGE]"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="text-slate-500 hover:text-[#1877F2] transition-colors duration-200"
+              >
+                <FaFacebookF size={20} />
+              </a>
               <a
                 href="https://instagram.com/[INSERT_INSTAGRAM_HANDLE]"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm text-slate-400 hover:text-white transition-colors"
+                aria-label="Instagram"
+                className="text-slate-500 hover:text-[#E1306C] transition-colors duration-200"
               >
-                @VašInstagram
+                <FaInstagram size={20} />
               </a>
               <a
-                href="https://wa.me/[INSERT_WHATSAPP_NUMBER]"
-                className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white text-sm font-medium px-4 py-2 rounded-full transition-colors"
+                href="viber://chat?number=%2B38761566787"
+                aria-label="Viber"
+                className="text-slate-500 hover:text-[#7360f2] transition-colors duration-200"
               >
-                <MessageCircle className="w-4 h-4" />
-                WhatsApp
+                <FaViber size={20} />
+              </a>
+              <a
+                href="https://wa.me/+38761566787"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp"
+                className="text-slate-500 hover:text-[#25D366] transition-colors duration-200"
+              >
+                <FaWhatsapp size={20} />
               </a>
             </div>
           </div>
