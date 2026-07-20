@@ -6,7 +6,10 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: "/medical-pedicure"
+  basePath: "/medical-pedicure",
+  env: {
+    NEXT_PUBLIC_BASE_PATH: "/medical-pedicure",
+  },
 };
 
 export default nextConfig;
