@@ -131,53 +131,125 @@ export default function Home() {
           }}
         />
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-          <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 text-teal-700 text-sm font-medium bg-teal-50 border border-teal-200 px-3 py-1 rounded-full mb-6">
-              <ShieldCheck className="w-4 h-4" />
-              Clinical-Grade Foot Health Care
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+            {/* Left side - Text content */}
+            <div>
+              <div className="inline-flex items-center gap-2 text-teal-700 text-sm font-medium bg-teal-50 border border-teal-200 px-3 py-1 rounded-full mb-6">
+                <ShieldCheck className="w-4 h-4" />
+                Clinical-Grade Foot Health Care
+              </div>
+              <h1 className="text-4xl sm:text-5xl lg:text-5xl font-bold text-slate-900 leading-tight tracking-tight mb-6">
+                Professional Medical{" "}
+                <span className="text-teal-600">
+                  Pedicure & Foot Advising
+                </span>
+              </h1>
+              <p className="text-lg sm:text-xl text-slate-600 leading-relaxed mb-8">
+                Expert foot health care delivered with clinical precision.
+                Autoclave-sterilised instruments, a waterless protocol, and
+                personalised treatment — because your feet deserve more than a
+                salon appointment.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 mb-8">
+                <a
+                  href="https://wa.me/[INSERT_WHATSAPP_NUMBER]"
+                  className="inline-flex items-center justify-center gap-2 bg-teal-600 text-white font-semibold px-6 py-3.5 rounded-full hover:bg-teal-700 transition-colors shadow-md hover:shadow-lg"
+                >
+                  <MessageCircle className="w-5 h-5" />
+                  Book via WhatsApp
+                </a>
+                <a
+                  href="#services"
+                  className="inline-flex items-center justify-center gap-2 border border-slate-300 text-slate-700 font-semibold px-6 py-3.5 rounded-full hover:border-teal-500 hover:text-teal-600 transition-colors"
+                >
+                  View Services
+                  <ArrowRight className="w-4 h-4" />
+                </a>
+              </div>
+              <div className="flex flex-wrap gap-6 text-sm text-slate-500">
+                <div className="flex items-center gap-2">
+                  <CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0" />
+                  Autoclave-sterilised instruments
+                </div>
+                <div className="flex items-center gap-2">
+                  <CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0" />
+                  Waterless protocol
+                </div>
+                <div className="flex items-center gap-2">
+                  <CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0" />
+                  Diabetic-safe treatment
+                </div>
+              </div>
             </div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 leading-tight tracking-tight mb-6">
-              Professional Medical{" "}
-              <br className="hidden sm:block" />
-              <span className="text-teal-600">
-                Pedicure & Foot Advising
-              </span>
-            </h1>
-            <p className="text-lg sm:text-xl text-slate-600 leading-relaxed mb-8 max-w-2xl">
-              Expert foot health care delivered with clinical precision.
-              Autoclave-sterilised instruments, a waterless protocol, and
-              personalised treatment — because your feet deserve more than a
-              salon appointment.
+
+            {/* Right side - Image with frame */}
+            <div className="hidden lg:flex justify-center items-center">
+              <div className="relative">
+                {/* Frame effect */}
+                <div className="absolute -inset-4 bg-gradient-to-br from-teal-100 to-slate-100 rounded-3xl"></div>
+                <div className="relative bg-white p-4 rounded-2xl shadow-xl overflow-hidden">
+                  <img
+                    src="/hero-image.png"
+                    alt="Medical pedicure professional examination"
+                    className="w-full h-auto rounded-xl object-cover"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Credentials & Environment */}
+      <section className="py-20 bg-gradient-to-br from-slate-50 to-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-14">
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
+              Clinical Expertise & Standards
+            </h2>
+            <p className="text-slate-500 max-w-xl mx-auto">
+              Professional qualifications and state-of-the-art sterilisation protocols ensure your safety and care.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <a
-                href="https://wa.me/[INSERT_WHATSAPP_NUMBER]"
-                className="inline-flex items-center justify-center gap-2 bg-teal-600 text-white font-semibold px-6 py-3.5 rounded-full hover:bg-teal-700 transition-colors shadow-md hover:shadow-lg"
-              >
-                <MessageCircle className="w-5 h-5" />
-                Book via WhatsApp
-              </a>
-              <a
-                href="#services"
-                className="inline-flex items-center justify-center gap-2 border border-slate-300 text-slate-700 font-semibold px-6 py-3.5 rounded-full hover:border-teal-500 hover:text-teal-600 transition-colors"
-              >
-                View Services
-                <ArrowRight className="w-4 h-4" />
-              </a>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+            {/* Ordination */}
+            <div className="flex flex-col items-center">
+              <div className="relative w-full mb-6">
+                <div className="absolute -inset-3 bg-gradient-to-br from-teal-100 to-slate-100 rounded-2xl"></div>
+                <div className="relative bg-white p-4 rounded-xl shadow-lg overflow-hidden">
+                  <img
+                    src="/ordination.png"
+                    alt="Professional qualifications and certifications"
+                    className="w-full h-auto rounded-lg object-cover"
+                  />
+                </div>
+              </div>
+              <h3 className="text-xl font-semibold text-slate-900 mb-2">
+                Professional Qualifications
+              </h3>
+              <p className="text-slate-600 text-center">
+                Advanced training and credentials in podiatric care and foot health management, ensuring evidence-based clinical practice.
+              </p>
             </div>
-            <div className="flex flex-wrap gap-6 mt-10 text-sm text-slate-500">
-              <div className="flex items-center gap-2">
-                <CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0" />
-                Autoclave-sterilised instruments
+
+            {/* Steril Environment */}
+            <div className="flex flex-col items-center">
+              <div className="relative w-full mb-6">
+                <div className="absolute -inset-3 bg-gradient-to-br from-teal-100 to-slate-100 rounded-2xl"></div>
+                <div className="relative bg-white p-4 rounded-xl shadow-lg overflow-hidden">
+                  <img
+                    src="/steril-env.png"
+                    alt="State-of-the-art sterilisation environment"
+                    className="w-full h-auto rounded-lg object-cover"
+                  />
+                </div>
               </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0" />
-                Waterless protocol
-              </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0" />
-                Diabetic-safe treatment
-              </div>
+              <h3 className="text-xl font-semibold text-slate-900 mb-2">
+                Sterile Clinical Environment
+              </h3>
+              <p className="text-slate-600 text-center">
+                Autoclave-sterilised instruments, single-use supplies, and meticulous hygiene protocols — medical-grade sterilisation every time.
+              </p>
             </div>
           </div>
         </div>
