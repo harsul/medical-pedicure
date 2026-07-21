@@ -8,12 +8,12 @@ export const CREDENTIALS_CONTENT = {
   card1ImageAlt: "Profesionalne kvalifikacije i sertifikati",
   card1Title: "Profesionalne kvalifikacije",
   card1Description:
-    "Napredne obuke i kvalifikacije u njezi stopala i upravljanju zdravljem stopala, osiguravajući praksu zasnovanu na dokazima.",
+    "Napredne obuke i kvalifikacije u njezi stopala i upravljanju zdravljem stopala, osiguravajući praksu zasnovanu iskustvom.",
   card2ImageSrc: "/steril-env.png",
   card2ImageAlt: "Napredna sterilna klinička sredina",
   card2Title: "Sterilna klinička sredina",
   card2Description:
-    "Instrumenti sterilizovani u autoklavnom procesu, oprema za jednokratnu upotrebu i pažljivi protokoli higijene — sterilizacija na medicinskom nivou svaki put.",
+    "Instrumenti sterilizovani u autoklavnom procesu, oprema za jednokratnu upotrebu i pažljivi hihijenski protokoli.",
 };
 
 export default function CredentialsSection() {

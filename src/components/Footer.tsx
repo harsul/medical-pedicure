@@ -2,8 +2,8 @@ import { Footprints } from "lucide-react";
 import { FaFacebookF, FaInstagram, FaViber, FaWhatsapp } from "react-icons/fa";
 
 export const FOOTER_CONTENT = {
-  brandName: "MediPed",
-  brandTagline: "njega stopala",
+  brandName: "Pedi Studio",
+  brandTagline: "medicinski pedikir",
   copyright: "© 2026 Sva prava zadržana.",
   facebookUrl: "https://facebook.com/[INSERT_FACEBOOK_PAGE]",
   instagramUrl: "https://instagram.com/[INSERT_INSTAGRAM_HANDLE]",

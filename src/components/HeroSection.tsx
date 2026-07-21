@@ -4,8 +4,8 @@ const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 export const HERO_CONTENT = {
   badgeText: "Njega stopala na kliničkom nivou",
-  headingLine1: "Stručno medicinsko",
-  headingLine2: "pedikiranje i savjetovanje",
+  headingLine1: "Stručni medicinski",
+  headingLine2: "pedikir i savjetovanje",
   subheading:"Kada se pojave problemi poput uraslih noktiju, bolnih kurjih očiju, dubokih pukotina na petama ili gljivičnih infekcija, estetski pedikir više nije dovoljan. Stopalima je tada potreban stručan, medicinski pristup.",
   ctaWhatsapp: "Zakažite putem WhatsApp",
   ctaServices: "Pogledajte usluge",
