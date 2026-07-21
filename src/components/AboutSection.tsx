@@ -2,12 +2,8 @@ import { BadgeCheck, ShieldCheck, Footprints, MapPin, Clock, Phone } from "lucid
 
 export const ABOUT_CONTENT = {
   aboutHeading: "O Nama",
-  aboutParagraph1:
-    "Specijalizirana praksa za zdravlje stopala posvećena pružanju klinačke izvrsnosti na svakom pregledu. Naš praktičar ima napredne kvalifikacije u njezi stopala i donosi iskrenu posvećenost tretmanu zasnovanom na dokazima i usmerenom na pacijenta.",
-  aboutParagraph2:
-    "Verujemo da su zdrava stopala fundamentalna za kvalitet života - i da svako zaslužuje pristup istom standardu njege, bilo da upravlja složenim stanjem poput dijabetesa ili jednostavno održavajući zdravlje stopala iz dana u dan.",
-  aboutParagraph3:
-    "Svaki detalj - od sterilnosti naših instrumenata do tempa vašeg pregleda - je osmišljen sa vašom udobnošću, sigurnošću i dugoročnim zdravljem stopala na umu. Naša misija je da redefinišemo šta znači brinuti o stopalima, pružajući iskustvo koje je jednako stručno koliko i brižno.",
+  aboutParagraph1:"Zakažite svoj termin na vrijeme i priuštite svojim stopalima njegu kakvu zaslužuju. Jer zdrav korak je lak korak!",
+  aboutParagraph2:"Pedi Studio je specijalizirani centar za medicinski pedikir na čijem se čelu nalazi medicinska sestra sa 15 godina radnog iskustva u struci.",
   badge1: "Potpuno osiguran i opremljen na klinačkim standardima",
   badge2: "Instrumenti sterilizovani u autoklavnom procesu - svaki put",
   badge3: "Specijalizirana njega za sve zdravstvene probleme stopala",
@@ -19,8 +15,7 @@ export const ABOUT_CONTENT = {
   locationMapsUrl:
     "https://www.google.com/maps/search/Srdjana+Aleksica+14+Otoka+Sarajevo+Bosna+i+Hercegovina",
   hoursLabel: "Radno Vrijeme",
-  hoursWeekdays: "Pon-Pet: 18:00 - 21:00",
-  hoursSaturday: "Sub: 09:00 - 12:00",
+  hoursWeekdays: "Pon-Sub: 08:00 - 20:00",
   hoursSunday: "Ned: Zatvoreno",
   contactLabel: "Kontakt",
   phone: "+387 61 566 787",
@@ -38,7 +33,6 @@ export default function AboutSection() {
             </h2>
             <p className="text-slate-600 leading-relaxed mb-4">{c.aboutParagraph1}</p>
             <p className="text-slate-600 leading-relaxed mb-4">{c.aboutParagraph2}</p>
-            <p className="text-slate-600 leading-relaxed">{c.aboutParagraph3}</p>
             <div className="mt-8 space-y-3">
               <div className="flex items-center gap-3">
                 <BadgeCheck className="w-5 h-5 text-teal-600 flex-shrink-0" />
@@ -86,8 +80,6 @@ export default function AboutSection() {
                   <p className="font-medium text-slate-800 mb-1">{c.hoursLabel}</p>
                   <p className="text-slate-600 text-sm">
                     {c.hoursWeekdays}
-                    <br />
-                    {c.hoursSaturday}
                     <br />
                     {c.hoursSunday}
                   </p>

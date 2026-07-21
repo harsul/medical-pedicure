@@ -9,23 +9,21 @@ import {
 } from "lucide-react";
 
 export const SERVICES_CONTENT = {
-  heading: "Naše usluge",
+  heading: "Usluge koje vraćaju lak korak",
   subheading:
-    "Svaki tretman je prilagođen vašim individualnim potrebama za zdravlje stopala, proveden sa klinačkom preciznošću i pažljom brigom.",
+    "Pedi Studio nudi širok spektar specijaliziranih tretmana",
 };
 
 export const services: { icon: LucideIcon; title: string; description: string }[] = [
   {
     icon: Scissors,
-    title: "Medicinska pedikiranja (Medi-Pedi)",
-    description:
-      "Klinički razred pedikiranja bez vode izvedene sa instrumentima steriliziranim u autoklavnom procesu. Fokusirano isključivo na zdravlje vaših stopala - tretiranje i sprečavanje stanja bezbedno i higijjenski.",
-  },
+    title: "Medicinsk pedikir",
+    description:"Za razliku od estetskih tretmana, mi se fokusiramo na zdravlje i trajno rješavanje bolnih stanja. Uz 100% sterilizaciju instrumenata, sigurnost naših klijenata je na prvom mjestu. Posebno smo specijalizirani za osjetljive pacijente i njegu dijabetičkog stopala."  },
   {
     icon: Stethoscope,
     title: "Procjena stanja stopala za dijabetičare",
     description:
-      "Specijalistička njega prilagođena povećanoj osjetljivosti i cirkulatornim rizicima povezanim sa dijabetesom. Uključuje vaskularne i neurološke preglede, provjere integriteta kože i sigurnu negu noktiju.",
+      "Specijalistička njega prilagođena povećanoj osjetljivosti i cirkulatornim rizicima povezanim sa dijabetesom. Uključuje vaskularne i neurološke preglede, provjere integriteta kože i sigurnu njegu noktiju.",
   },
   {
     icon: CheckCircle,

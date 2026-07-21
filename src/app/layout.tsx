@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Medi Ped njega stopala",
+  title: "Pedi Studio",
   description: "Profesionalni medicinski pedikir i njega stopala u Sarajevu. Pružamo vrhunsku negu stopala i tretmane za zdravlje vaših nogu.",
 };
 

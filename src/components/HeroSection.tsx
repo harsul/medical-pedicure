@@ -4,16 +4,15 @@ const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 export const HERO_CONTENT = {
   badgeText: "Njega stopala na kliničkom nivou",
-  headingLine1: "Stručna medicinska",
-  headingLine2: "pedikiranja i savjetovanje",
-  subheading:
-    "Stručna njega stopala dostavljana sa klinačkom preciznošću. Instrumenti sterilizovani u autoklavnom procesu, protokol bez vode i personalizovani tretman — jer vaša stopala zaslužuju više od salon posete.",
+  headingLine1: "Stručno medicinsko",
+  headingLine2: "pedikiranje i savjetovanje",
+  subheading:"Kada se pojave problemi poput uraslih noktiju, bolnih kurjih očiju, dubokih pukotina na petama ili gljivičnih infekcija, estetski pedikir više nije dovoljan. Stopalima je tada potreban stručan, medicinski pristup.",
   ctaWhatsapp: "Zakažite putem WhatsApp",
   ctaServices: "Pogledajte usluge",
   trustBadge1: "Instrumenti sterilizovani u autoklavnom procesu",
   trustBadge2: "Protokol bez vode",
   trustBadge3: "Tretman bezbjedan za dijabetičare",
-  whatsappUrl: "https://wa.me/[INSERT_WHATSAPP_NUMBER]",
+  whatsappUrl: "https://wa.me/+38761566787",
   imageSrc: "/hero-image.png",
   imageAlt: "Medical pedicure professional examination",
 };

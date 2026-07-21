@@ -9,10 +9,9 @@ export const FAQ_CONTENT = {
 export const faqs: { question: string; answer: string }[] = [
   {
     question:
-      "Koja je razlika između medicinskog pedikiranja i standardne salon pedikiranja?",
-    answer: `Medicinska pedikiranja - često nazvana Medi-Pedi, izvedena je od strane obučenog specijalista za zdravlje stopala u klinički okruženju, koristeći instrumente koji su sterilizovani u autoklavnom procesu između svakog pacijenta. Za razliku od standardne salon pedikiranja, naš tretman je bez vode: potapanje stopala u deljenu vodu se u potpunosti izbjegava, čime se eliminiše rizik od unakrsne kontaminacije i prenosivanja gljivica.
-
-Ne koristimo agresivno pilanje, oštre abrazivne peelingove ili prekomerno rezanje koje može oštetiti osjetljivu kožu i stvoriti prolazne točke za infekciju. Umjesto toga, koristimo precizne kirurške instrumente za tretiranje nokta, okružujućeg tkiva i kože na kontrolisani, dokazima potkrepljen način — sa fokusom isključivo na zdravstvene rezultate, a ne na estetski izgled.`,
+      "Zašto je medicinski pedikir drugačiji?",
+    answer: `Za razliku od klasičnih estetskih tretmana, medicinski pedikir u Pedi Studiju fokusiran je na zdravlje stopala i rješavanje konkretnih, bolnih stanja. Tretmani se izvode po najvišim higijenskim standardima, uz stopostotnu sterilizaciju instrumenata, što pruža maksimalnu sigurnost svim klijentima.
+Naš cilj nije samo privremeno sakriti problem, već ga trajno i bezbjedno riješiti. Zbog mog dugogodišnjeg iskustva u medicini, posebnu pažnju posvećujemo klijentima s osjetljivim problemima, poput dijabetičkog stopala, gdje svaka greška može biti opasna.`,
   },
   {
     question: "Da li je ovaj tretman bezbedan ako sam dijabetičar?",

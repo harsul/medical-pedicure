@@ -3,7 +3,7 @@ const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 export const CREDENTIALS_CONTENT = {
   heading: "Stručno znanje i standardi higijene",
   subheading:
-    "Profesionalne kvalifikacije i napredni protokoli sterilizacije obezbeđuju vašu sigurnost i negu.",
+    "U Sarajevu je otvoren Pedi Studio, specijalizirani centar za medicinski pedikir na čijem se čelu nalazi medicinska sestra sa 15 godina radnog iskustva u struci.",
   card1ImageSrc: "/ordination.png",
   card1ImageAlt: "Profesionalne kvalifikacije i sertifikati",
   card1Title: "Profesionalne kvalifikacije",

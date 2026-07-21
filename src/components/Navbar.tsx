@@ -1,8 +1,8 @@
 import { Footprints, CalendarCheck } from "lucide-react";
 
 export const NAVBAR_CONTENT = {
-  brandName: "MediPed",
-  brandTagline: "njega stopala",
+  brandName: "Pedi Studio",
+  brandTagline: "medicinski pedikir",
   navUsluge: "Usluge",
   navFaq: "FAQ",
   navONama: "O Nama",
