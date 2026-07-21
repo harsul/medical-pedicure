@@ -28,29 +28,29 @@ export default function AboutSection() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
           <div>
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6 tracking-wide">
               {c.aboutHeading}
             </h2>
             <p className="text-slate-600 leading-relaxed mb-4">{c.aboutParagraph1}</p>
             <p className="text-slate-600 leading-relaxed mb-4">{c.aboutParagraph2}</p>
             <div className="mt-8 space-y-3">
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 bg-teal-50 border border-teal-100 rounded-lg px-3 py-2">
                 <BadgeCheck className="w-5 h-5 text-teal-600 flex-shrink-0" />
-                <span className="text-sm text-slate-600">{c.badge1}</span>
+                <span className="text-sm text-slate-700 font-medium">{c.badge1}</span>
               </div>
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 bg-teal-50 border border-teal-100 rounded-lg px-3 py-2">
                 <ShieldCheck className="w-5 h-5 text-teal-600 flex-shrink-0" />
-                <span className="text-sm text-slate-600">{c.badge2}</span>
+                <span className="text-sm text-slate-700 font-medium">{c.badge2}</span>
               </div>
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 bg-teal-50 border border-teal-100 rounded-lg px-3 py-2">
                 <Footprints className="w-5 h-5 text-teal-600 flex-shrink-0" />
-                <span className="text-sm text-slate-600">{c.badge3}</span>
+                <span className="text-sm text-slate-700 font-medium">{c.badge3}</span>
               </div>
             </div>
           </div>
 
           <div id="contact">
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6 tracking-wide">
               {c.contactHeading}
             </h2>
             <div className="bg-slate-50 rounded-2xl border border-slate-200 p-6 space-y-5 mb-6">

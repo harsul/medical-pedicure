@@ -1,4 +1,4 @@
-const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+import { BASE_PATH } from "@/lib/config";
 
 export const CREDENTIALS_CONTENT = {
   heading: "Stručno znanje i standardi higijene",
@@ -22,7 +22,7 @@ export default function CredentialsSection() {
     <section className="py-20 bg-gradient-to-br from-slate-50 to-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-14">
-          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
+          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4 tracking-wide">
             {c.heading}
           </h2>
           <p className="text-slate-500 max-w-xl mx-auto">{c.subheading}</p>
@@ -31,7 +31,7 @@ export default function CredentialsSection() {
           <div className="flex flex-col items-center">
             <div className="relative w-full mb-6">
               <div className="absolute -inset-3 bg-gradient-to-br from-teal-100 to-slate-100 rounded-2xl"></div>
-              <div className="relative bg-white p-4 rounded-xl shadow-lg overflow-hidden">
+              <div className="relative bg-white p-4 rounded-xl shadow-lg overflow-hidden border-t-4 border-t-teal-400">
                 <img
                   src={`${BASE_PATH}${c.card1ImageSrc}`}
                   alt={c.card1ImageAlt}

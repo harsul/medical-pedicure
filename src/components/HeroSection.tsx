@@ -1,6 +1,5 @@
 import { ShieldCheck, MessageCircle, ArrowRight, CheckCircle } from "lucide-react";
-
-const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+import { BASE_PATH } from "@/lib/config";
 
 export const HERO_CONTENT = {
   badgeText: "Njega stopala na kliničkom nivou",
@@ -58,7 +57,7 @@ export default function HeroSection() {
                 <ArrowRight className="w-4 h-4" />
               </a>
             </div>
-            <div className="flex flex-wrap gap-6 text-sm text-slate-500">
+            <div className="flex flex-wrap gap-4 text-sm text-slate-500 border border-slate-200 rounded-xl bg-white/70 px-5 py-4">
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-4 h-4 text-teal-500 flex-shrink-0" />
                 {c.trustBadge1}

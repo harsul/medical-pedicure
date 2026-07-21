@@ -33,7 +33,7 @@ export default function FaqSection() {
     <section id="faq" className="py-20 bg-slate-50">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-14">
-          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
+          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4 tracking-wide">
             {c.heading}
           </h2>
           <p className="text-slate-500">{c.subheading}</p>
@@ -42,7 +42,7 @@ export default function FaqSection() {
           {faqs.map((faq, i) => (
             <details
               key={i}
-              className="group bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden"
+              className="group bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden open:border-l-4 open:border-l-teal-400 transition-[border]"
             >
               <summary className="flex items-center justify-between gap-4 p-6 cursor-pointer list-none select-none hover:bg-slate-50 transition-colors">
                 <span className="font-semibold text-slate-800 text-left">
