@@ -19,9 +19,9 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-2">
             <Footprints className="w-5 h-5 text-teal-400" />
-            <span className="text-white font-semibold tracking-tight">
+            <span className="text-white font-display font-normal tracking-tight text-lg">
               {c.brandName}{" "}
-              <span className="text-teal-400">{c.brandTagline}</span>
+              <span className="text-teal-400 italic">{c.brandTagline}</span>
             </span>
           </div>
           <p className="text-sm text-slate-500 text-center order-last sm:order-none">

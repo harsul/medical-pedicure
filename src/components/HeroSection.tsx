@@ -19,14 +19,7 @@ export const HERO_CONTENT = {
 export default function HeroSection() {
   const c = HERO_CONTENT;
   return (
-    <section className="relative bg-gradient-to-br from-teal-50 via-white to-slate-50 py-20 sm:py-28 overflow-hidden">
-      <div
-        className="absolute inset-0 pointer-events-none"
-        style={{
-          background:
-            "radial-gradient(ellipse 70% 60% at 90% 10%, rgb(204 251 241 / 0.5), transparent)",
-        }}
-      />
+    <section className="relative bg-white py-20 sm:py-28 overflow-hidden">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           <div>
@@ -34,9 +27,9 @@ export default function HeroSection() {
               <ShieldCheck className="w-4 h-4" />
               {c.badgeText}
             </div>
-            <h1 className="text-4xl sm:text-5xl lg:text-5xl font-bold text-slate-900 leading-tight tracking-tight mb-6">
+            <h1 className="text-4xl sm:text-5xl lg:text-5xl font-display font-normal text-slate-900 leading-tight mb-6">
               {c.headingLine1}{" "}
-              <span className="text-teal-600">{c.headingLine2}</span>
+              <span className="text-teal-600 italic">{c.headingLine2}</span>
             </h1>
             <p className="text-lg sm:text-xl text-slate-600 leading-relaxed mb-8">
               {c.subheading}

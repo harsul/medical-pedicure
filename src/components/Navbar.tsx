@@ -19,9 +19,9 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
             <Footprints className="w-6 h-6 text-teal-600" />
-            <span className="text-lg font-semibold text-slate-900 tracking-tight">
+            <span className="text-xl font-display font-normal text-slate-900 tracking-tight">
               {c.brandName}{" "}
-              <span className="text-teal-600">{c.brandTagline}</span>
+              <span className="text-teal-600 italic">{c.brandTagline}</span>
             </span>
           </div>
           <nav className="hidden md:flex items-center gap-6 text-sm text-slate-600">

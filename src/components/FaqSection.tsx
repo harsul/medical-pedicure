@@ -30,10 +30,10 @@ Ako dolazite na tretman uraslih nokta ili imate posebno osjetljivo stanje, uvije
 export default function FaqSection() {
   const c = FAQ_CONTENT;
   return (
-    <section id="faq" className="py-20 bg-slate-50">
+    <section id="faq" className="py-20 bg-stone-50">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-14">
-          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4 tracking-wide">
+          <h2 className="text-3xl sm:text-4xl font-display font-normal text-slate-900 mb-4 tracking-wide">
             {c.heading}
           </h2>
           <p className="text-slate-500">{c.subheading}</p>

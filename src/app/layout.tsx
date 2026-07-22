@@ -1,9 +1,16 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Geist, DM_Serif_Display } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const dmSerifDisplay = DM_Serif_Display({
+  weight: "400",
+  style: ["normal", "italic"],
+  variable: "--font-dm-serif-display",
   subsets: ["latin"],
 });
 
@@ -87,7 +94,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="bs" className={`${geistSans.variable} h-full antialiased`}>
+    <html lang="bs" className={`${geistSans.variable} ${dmSerifDisplay.variable} h-full antialiased`}>
       <head>
         <script
           type="application/ld+json"

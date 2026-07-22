@@ -28,7 +28,7 @@ export default function AboutSection() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
           <div>
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6 tracking-wide">
+            <h2 className="text-3xl sm:text-4xl font-display font-normal text-slate-900 mb-6 tracking-wide">
               {c.aboutHeading}
             </h2>
             <p className="text-slate-600 leading-relaxed mb-4">{c.aboutParagraph1}</p>
@@ -50,7 +50,7 @@ export default function AboutSection() {
           </div>
 
           <div id="contact">
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6 tracking-wide">
+            <h2 className="text-3xl sm:text-4xl font-display font-normal text-slate-900 mb-6 tracking-wide">
               {c.contactHeading}
             </h2>
             <div className="bg-slate-50 rounded-2xl border border-slate-200 p-6 space-y-5 mb-6">

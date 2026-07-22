@@ -19,19 +19,19 @@ export const CREDENTIALS_CONTENT = {
 export default function CredentialsSection() {
   const c = CREDENTIALS_CONTENT;
   return (
-    <section className="py-20 bg-gradient-to-br from-slate-50 to-white">
+    <section className="py-20 bg-[#0e2f30]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-14">
-          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4 tracking-wide">
+          <h2 className="text-3xl sm:text-4xl font-display font-normal text-white mb-4 tracking-wide">
             {c.heading}
           </h2>
-          <p className="text-slate-500 max-w-xl mx-auto">{c.subheading}</p>
+          <p className="text-teal-200/80 max-w-xl mx-auto">{c.subheading}</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
           <div className="flex flex-col items-center">
             <div className="relative w-full mb-6">
-              <div className="absolute -inset-3 bg-gradient-to-br from-teal-100 to-slate-100 rounded-2xl"></div>
-              <div className="relative bg-white p-4 rounded-xl shadow-lg overflow-hidden border-t-4 border-t-teal-400">
+              <div className="absolute -inset-3 bg-teal-400/15 rounded-2xl"></div>
+              <div className="relative bg-white p-4 rounded-xl shadow-2xl overflow-hidden border-t-4 border-t-teal-400">
                 <img
                   src={`${BASE_PATH}${c.card1ImageSrc}`}
                   alt={c.card1ImageAlt}
@@ -39,14 +39,14 @@ export default function CredentialsSection() {
                 />
               </div>
             </div>
-            <h3 className="text-xl font-semibold text-slate-900 mb-2">{c.card1Title}</h3>
-            <p className="text-slate-600 text-center">{c.card1Description}</p>
+            <h3 className="text-xl font-display font-normal text-white mb-2">{c.card1Title}</h3>
+            <p className="text-teal-100/70 text-center text-sm">{c.card1Description}</p>
           </div>
 
           <div className="flex flex-col items-center">
             <div className="relative w-full mb-6">
-              <div className="absolute -inset-3 bg-gradient-to-br from-teal-100 to-slate-100 rounded-2xl"></div>
-              <div className="relative bg-white p-4 rounded-xl shadow-lg overflow-hidden">
+              <div className="absolute -inset-3 bg-teal-400/15 rounded-2xl"></div>
+              <div className="relative bg-white p-4 rounded-xl shadow-2xl overflow-hidden border-t-4 border-t-teal-400">
                 <img
                   src={`${BASE_PATH}${c.card2ImageSrc}`}
                   alt={c.card2ImageAlt}
@@ -54,8 +54,8 @@ export default function CredentialsSection() {
                 />
               </div>
             </div>
-            <h3 className="text-xl font-semibold text-slate-900 mb-2">{c.card2Title}</h3>
-            <p className="text-slate-600 text-center">{c.card2Description}</p>
+            <h3 className="text-xl font-display font-normal text-white mb-2">{c.card2Title}</h3>
+            <p className="text-teal-100/70 text-center text-sm">{c.card2Description}</p>
           </div>
         </div>
       </div>
